@@ -32,7 +32,6 @@
 5. **🚀 DevOps e Automação**
    - ✅ CI/CD com GitHub Actions
    - ✅ Build automatizado em 3 etapas (EJB → Backend → Frontend)
-   - ✅ Scripts PowerShell para setup e execução
 
 6. **💎 Qualidade de Código**
    - ✅ Clean Code e SOLID principles
@@ -44,8 +43,8 @@
 
 ```bash
 # 1. Clone o repositório
-git clone <repo-url>
-cd bip-teste-integrado
+git clone https://github.com/DeveloperSeniorBR/sistema-beneficios-fullstack.git
+cd sistema-beneficios-fullstack
 
 # 2. Execute o Backend (Terminal 1)
 cd backend-module
@@ -60,15 +59,6 @@ npm start
 # Frontend: http://localhost:4200
 # Backend API: http://localhost:8080
 # Swagger: http://localhost:8080/swagger-ui.html
-```
-
-**Windows PowerShell (Automático):**
-```powershell
-# Terminal 1
-.\run-backend.ps1
-
-# Terminal 2
-.\run-frontend.ps1
 ```
 
 ---
